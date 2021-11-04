@@ -1,5 +1,35 @@
 # Pewlett_Hackard_Analysis!
-In this projects we are using PostgreSQL and pgAdmin4 to analyze 6 big CSV files of Pewlett Hackard. We were provided a big sum of unfiltered data about employees, their titles, salaries, departments, department managers and each department employees. 
+## Overview of the analysis
+In this project we are using PostgreSQL and pgAdmin4 to analyze 6 big CSV files of Pewlett Hackard. We were provided a big sum of unfiltered data about employees, their titles, salaries, departments, department managers and each department employees. 
 
-From those hundred thousands rows of data, we are filtering out who is retiring and when. We anticipate the company to use this analysis in mapping out when to hire and to which department. Since they need more time to train a new department manager, we are also filtering our department manager's retirement dates.
+Those CSV files are relational, and the following diagram clearly shows their relationship.
 
+From those hundreds of thousands of rows of data, we are filtering out who is retiring and when. We are anticipating that the company will use this analysis in mapping out when to hire and to which department. Since they need more time to train a new department manager, we are also filtering our department manager's retirement dates.
+
+By analyzing their data, we are also filtering out which titles are retiring and who will be eligible for mentorship program.
+
+## Results
+    * Retirement titles:
+      - By executing a query, we were able to filter all retirement titles of employees born between January 1, 1952, and December 31, 1995.
+      - The table we created and saved as CSV got 133,776 rows, but as some employees are appearing with different titles, the number does not represent the correct number of retiring employees. We will get the actual number by finding unique titles below.
+    
+    * Unique titles:
+      - By executing a query, we once again filtered retirement titles to find unique titles per an emp_no.
+      - Our CSV table came back with 90.398 rows, and this shows the actual number of employees retiring soon.
+    
+    * Retiring titles:
+      - We also determined how many employees in each title category are retiring in the specified period.
+      - Surprisingly, the largest number of retiring employees are with title of senior engineer (29,414), but only 2 managers retiring.
+
+    * Mentorship Eligibility:
+      - In this analysis, we executed a query to filter out employees born between January 1, 1965, and December 31, 1965 (we used a data from 3 tables: employees, dep_emp and titles)
+      - We were able to create a CSV table with 1,549 rows, showing the total number of employees that are eligible for mentorship program.
+
+## Summary
+   * The company is going to lose about 90,398 employees by retirement, where some high skill positions looks a large number of employees retiring. About 29,414 senior engineers are retiring and the company got a big shoe to fill.
+   * There are 1,549 number of employees who can mentor the next generation of Pewlett Hackard employees. But, from our analysis we did not determine the titles of those who are eligible for mentorship, and we can't definitely say all departments will have enough mentors.
+
+## Recommendations
+   * Finally, we recommend PH to invest more in mentorship programs to fill the vacancies that are coming soon. There is a need for a special attention in looking for future vacancies that require highly skilled employees as it is always hard to find the best qualified candidate.
+
+     
