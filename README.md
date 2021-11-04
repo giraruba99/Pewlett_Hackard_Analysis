@@ -49,6 +49,6 @@ By analyzing their data, we are also filtering out which titles are retiring and
    * There are 1,549 number of employees who can mentor the next generation of Pewlett Hackard employees. But, from our analysis we did not determine the titles of those who are eligible for mentorship, and we can't definitely say all departments will have enough mentors.
 
 ## Recommendations
-   * Finally, we recommend PH to invest more in mentorship programs to fill the vacancies that are coming soon. There is a need for a special attention in looking for future vacancies that require highly skilled employees as it is always hard to find the best qualified candidate.
+   * Finally, we recommend PH to invest more in mentorship programs to fill the vacancies that are coming soon. There is a need for a special attention in looking for future vacancies that require highly skilled employees as it is always hard to find the best qualified candidate. We recommend that they keep track of those highly skilled positions and probably encourage them to continue as part-time employees instead of retiring.
 
      
