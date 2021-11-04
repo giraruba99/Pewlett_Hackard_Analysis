@@ -14,32 +14,32 @@ By analyzing their data, we are also filtering out which titles are retiring and
 ## Results
 * Retirement titles:
 
-      - By executing a query, we were able to filter all retirement titles of employees born between January 1, 1952, and December 31, 1995.
-      - The table we created and saved as CSV got 133,776 rows, but as some employees are appearing with different titles, the number does not represent the correct number of retiring employees. We will get the actual number by finding unique titles below.
+  - By executing a query, we were able to filter all retirement titles of employees born between January 1, 1952, and December 31, 1995.
+  - The table we created and saved as CSV got 133,776 rows, but as some employees are appearing with different titles, the number does not represent the correct number of retiring employees. We will get the actual number by finding unique titles below.
       
      ![retirement_titles](https://user-images.githubusercontent.com/89214854/140274454-e15441e5-a361-40a4-9bcf-db8e35ddd2b3.png)
  
     
 * Unique titles:
 
-      - By executing a query, we once again filtered retirement titles to find unique titles per an emp_no.
-      - Our CSV table came back with 90.398 rows, and this shows the actual number of employees retiring soon.
+  - By executing a query, we once again filtered retirement titles to find unique titles per an emp_no.
+  - Our CSV table came back with 90.398 rows, and this shows the actual number of employees retiring soon.
       
       ![unique_titles](https://user-images.githubusercontent.com/89214854/140274515-57794dc3-4efa-45bf-8468-c2d1e16c6584.png)
 
     
 * Retiring titles:
 
-      - We also determined how many employees in each title category are retiring in the specified period.
-      - Surprisingly, the largest number of retiring employees are with title of senior engineer (29,414), but only 2 managers retiring.
+  - We also determined how many employees in each title category are retiring in the specified period.
+  - Surprisingly, the largest number of retiring employees are with title of senior engineer (29,414), but only 2 managers retiring.
       
       ![retiring_titles](https://user-images.githubusercontent.com/89214854/140274590-6347f2ec-50fb-40fa-884a-1f78bc3aa082.png)
 
 
 * Mentorship Eligibility:
 
-      - In this analysis, we executed a query to filter out employees born between January 1, 1965, and December 31, 1965 (we used a data from 3 tables: employees, dep_emp and titles)
-      - We were able to create a CSV table with 1,549 rows, showing the total number of employees that are eligible for mentorship program.
+  - In this analysis, we executed a query to filter out employees born between January 1, 1965, and December 31, 1965 (we used a data from 3 tables: employees, dep_emp and titles)
+  - We were able to create a CSV table with 1,549 rows, showing the total number of employees that are eligible for mentorship program.
       
      ![mentorship_eligibilty](https://user-images.githubusercontent.com/89214854/140274636-76fd82f1-ecff-4cdb-8499-8385079b9bb1.png)
  
