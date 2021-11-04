@@ -9,19 +9,19 @@ From those hundreds of thousands of rows of data, we are filtering out who is re
 By analyzing their data, we are also filtering out which titles are retiring and who will be eligible for mentorship program.
 
 ## Results
-    * Retirement titles:
+* Retirement titles:
       - By executing a query, we were able to filter all retirement titles of employees born between January 1, 1952, and December 31, 1995.
       - The table we created and saved as CSV got 133,776 rows, but as some employees are appearing with different titles, the number does not represent the correct number of retiring employees. We will get the actual number by finding unique titles below.
     
-    * Unique titles:
+* Unique titles:
       - By executing a query, we once again filtered retirement titles to find unique titles per an emp_no.
       - Our CSV table came back with 90.398 rows, and this shows the actual number of employees retiring soon.
     
-    * Retiring titles:
+* Retiring titles:
       - We also determined how many employees in each title category are retiring in the specified period.
       - Surprisingly, the largest number of retiring employees are with title of senior engineer (29,414), but only 2 managers retiring.
 
-    * Mentorship Eligibility:
+* Mentorship Eligibility:
       - In this analysis, we executed a query to filter out employees born between January 1, 1965, and December 31, 1965 (we used a data from 3 tables: employees, dep_emp and titles)
       - We were able to create a CSV table with 1,549 rows, showing the total number of employees that are eligible for mentorship program.
 
